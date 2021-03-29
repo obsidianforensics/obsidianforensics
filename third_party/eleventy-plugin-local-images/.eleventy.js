@@ -6,7 +6,7 @@ const sh = require("shorthash");
 const fileType = require("file-type");
 const metadata = require("../../_data/metadata.json");
 
-let config = { distPath: "_site", verbose: false, attribute: "src" };
+let config = { distPath: "docs", verbose: false, attribute: "src" };
 
 const downloadImage = async (path) => {
   if (config.verbose) {

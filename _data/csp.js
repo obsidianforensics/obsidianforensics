@@ -33,14 +33,18 @@ const CSP = {
   regular: serialize([
     // By default only talk to same-origin
     ["default-src", SELF],
+//    ["default-src", '*', SELF],
     // No plugins
     ["object-src", quote("none")],
     // Script from same-origin and inline-hashes.
-    ["script-src", SELF, /* Replaced by csp.js plugin */ "HASHES"],
+    //["script-src", SELF, /* Replaced by csp.js plugin */ "HASHES"],
+    ["script-src", SELF, /* Replaced by csp.js plugin */ quote("unsafe-inline")],
+//    ["script-src", SELF, '*', 'google.com', '*.googlesyndication.com/*', quote("unsafe-inline")],
     // Inline CSS is allowed.
     ["style-src", quote("unsafe-inline")],
     // Images may also come from data-URIs.
     ["img-src", SELF, "data:"],
+//    ["img-src", SELF, '*', "data:"],
 
     // To add new rules, add new array literals here or extend those above with
     // additional allowed elements.

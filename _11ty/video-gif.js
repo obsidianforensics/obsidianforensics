@@ -39,7 +39,7 @@ exports.gif2mp4 = async function (filename) {
     "-v",
     "error",
     "-i",
-    join("_site", filename),
+    join("docs", filename),
     "-filter_complex",
     "[0:v] fps=15",
     "-vsync",
@@ -48,7 +48,7 @@ exports.gif2mp4 = async function (filename) {
     "mp4",
     "-pix_fmt",
     "yuv420p",
-    join("_site", dest),
+    join("docs", dest),
   ]);
   try {
     await exec(command);

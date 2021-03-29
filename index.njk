@@ -1,15 +1,40 @@
 ---
-title: Title. Update me.
+title: Timestamp is ____
 layout: layouts/home.njk
 description: Description. Update me.
 image: https://upload.wikimedia.org/wikipedia/en/a/a9/Example.jpg
 date: Last Modified
 ---
 
-<p>
-  This is a demo website based on 
-  <a href="https://www.industrialempathy.com/posts/eleventy-high-performance-blog/">eleventy-high-performance-blog</a>.
-</p>
+<div>Time</div><div id="time"> </div>
+<div>Epoch Milliseconds</div><div id="millis"> </div>
+
+<script>
+function updateClock() {
+    var now = new Date(), // current date
+        months = ['January', 'February', '...']; // you get the idea
+        time = now.getHours() + ':' + now.getMinutes() + ':' + now.getSeconds(), // again, you get the idea
+
+        // a cleaner way than string concatenation
+        date = [now.getDate(),
+                months[now.getMonth()],
+                now.getFullYear()].join(' ');
+
+    // set the content of the element with the ID time to the formatted string
+    document.getElementById('time').innerHTML = [date, time].join(' / ');
+
+
+
+    const currentTimeInMilliseconds=Date.now(); // unix timestamp in milliseconds
+    document.getElementById('millis').innerHTML = currentTimeInMilliseconds;
+
+
+    // call this function again in 1000ms
+    setTimeout(updateClock, 10);
+}
+updateClock(); // initial call
+</script>
+
 
 <div id="posts">
   <h2>Posts</h2>
