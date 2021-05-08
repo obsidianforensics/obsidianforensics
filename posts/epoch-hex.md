@@ -1,5 +1,6 @@
 ---
-title: This is my first post.
+title: Epoch Seconds (Hex)
+timestamp_id: epoch-hex
 description: This is a post on My Blog about agile frameworks.
 date: 2018-05-01
 tags:
@@ -7,6 +8,7 @@ tags:
 layout: layouts/post.njk
 image: https://cdn.pixabay.com/photo/2020/08/30/20/54/rice-field-5530707_1280.jpg
 ---
+
 
 Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
 

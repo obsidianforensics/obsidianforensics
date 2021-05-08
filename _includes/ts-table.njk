@@ -1,0 +1,30 @@
+
+<div class="grid-containera">
+  <div class="grid-item ts-name header">Timestamp</div>
+  <div class="grid-item ts-old header">Past<br>2010-01-01T00:00:00.000Z</div>
+  <div class="grid-item ts-now header" id="iso now">Now</div>
+  <div class="grid-item ts-now header">Future<br>2030-01-01T00:00:00.000Z</div>
+  {% for post in postslist %}
+    {% if post.data.timestamp_id %}
+      <div class="grid-item ts-name" id="{{ post.data.timestamp_id }} name">{{ post.data.title }}</div>
+      <div class="grid-item ts-old" id="{{ post.data.timestamp_id }} old"></div>
+      <div class="grid-item ts-now" id="{{ post.data.timestamp_id }} now"></div>
+      <div class="grid-item ts-future" id="{{ post.data.timestamp_id }} future"></div>
+    {% endif %}
+  {% endfor %}
+</div>
+
+
+<div class="grid-container">
+  {% for post in postslist %}
+    {% if post.data.timestamp_id %}
+      <div class="grid-item ts-name" id="{{ post.data.timestamp_id }} name">{{ post.data.title }}</div>
+      <div class="grid-item ts-past" id="{{ post.data.timestamp_id }} past seconds"></div>
+      <div class="grid-item ts-past fractional" id="{{ post.data.timestamp_id }} past fractional"></div>
+      <div class="grid-item ts-now" id="{{ post.data.timestamp_id }} now seconds"></div>
+      <div class="grid-item ts-now fractional" id="{{ post.data.timestamp_id }} now fractional"></div>
+      <div class="grid-item ts-future" id="{{ post.data.timestamp_id }} future seconds"></div>
+      <div class="grid-item ts-future fractional" id="{{ post.data.timestamp_id }} future fractional"></div>
+    {% endif %}
+  {% endfor %}
+</div>

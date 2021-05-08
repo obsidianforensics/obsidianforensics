@@ -1,3 +1,52 @@
+/* timestamp.is customizations */
+
+.container {
+  display: flex; /* or inline-flex */
+  flex-wrap: wrap;
+  background: blue;
+
+}
+
+.item {
+  padding: 15px;
+  margin: 10px;
+  border-radius: 7px;
+  background-image: linear-gradient(to bottom right, #f9c411 0%, #f1bc08 100%);
+}
+
+.top-timestamp {
+  color: red;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+}
+
+.grid-container-fractional {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto;
+}
+
+.grid-item-header {
+  grid-column-end: span 2;
+  justify-self: center;
+}
+
+.grid-item {
+  justify-self: right;
+}
+
+.grid-item.fractional {
+  justify-self: left;
+  color: var(--primary);
+}
+
+.tense-header {
+  color: var(--primary);
+  text-align: center;
+  font-size: larger;
+}
 /* Color customization */
 :root {
   --primary: #f9c412;
@@ -1113,7 +1162,7 @@ footer p {
 article {
   max-width: 100%;
   padding: 1.5em;
-  width: 37.5em;
+  width: 55.0em;
   margin: 0 auto;
 }
 ol,

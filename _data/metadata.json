@@ -1,8 +1,8 @@
 {
-  "title": "Title of the website. Update me.",
-  "url": "https://update-me.com",
-  "domain": "update-me.com",
-  "description": "Description of the website. Update me.",
+  "title": "timestamp.is",
+  "url": "https://timestamp.is",
+  "domain": "timestamp.is",
+  "description": "Everything you wanted to know about timestamps (and then some).",
   "genre": "Insert a schema.org genre",
   "googleAnalyticsId": "GA ID. Update me. Note, that this is not compatible with the not-yet-commonly used version 4 of Google Analytics",
   "sendWebVitals": false,
@@ -17,8 +17,8 @@
     "url": "https://update-me.com/feed/feed.json"
   },
   "author": {
-    "name": "Author Name. Update me.",
-    "twitterHandle": "update_me"
+    "name": "Ryan Benson",
+    "twitterHandle": "@_RyanBenson"
   },
   "publisher": {
     "name": "Publisher name. Update me."

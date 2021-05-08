@@ -1,5 +1,5 @@
 ---
-title: timestamp is
+title: Timestamp is
 layout: layouts/home.njk
 description: Everything you wanted to know about timestamps (and then some).
 image: https://upload.wikimedia.org/wikipedia/en/a/a9/Example.jpg
@@ -10,6 +10,7 @@ date: Last Modified
 <script async defer src="{{ "/js/timestamps.js" | addHash }}"></script>
 
 <div id="posts">
+  <h2>Timestamps</h2>
   {% set postslist = collections.posts %}
-  {% include "ts-fractional-table.njk" %}
+  {% include "postslist.njk" %}
 </div>

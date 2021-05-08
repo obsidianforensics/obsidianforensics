@@ -7,10 +7,56 @@
   
   
   
+  <url>
+    <loc>https://timestamp.is/posts/epoch-hex/</loc>
+    <lastmod>2020-07-12T00:00:00.000Z</lastmod>
+  </url>
+  
+  
+  
+  
+  
+  
+  
     
   
   <url>
-    <loc>https://update-me.com/posts/firstpost/</loc>
+    <loc>https://timestamp.is/posts/epoch-millisecond/</loc>
+    <lastmod>2021-03-29T15:25:39.000Z</lastmod>
+  </url>
+  
+  
+  
+  
+  
+  
+  
+  <url>
+    <loc>https://timestamp.is/posts/epoch-second/</loc>
+    <lastmod>2020-07-12T00:00:00.000Z</lastmod>
+  </url>
+  
+  
+  
+  
+  
+  
+  
+  <url>
+    <loc>https://timestamp.is/posts/webkit/</loc>
+    <lastmod>2020-07-12T00:00:00.000Z</lastmod>
+  </url>
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  <url>
+    <loc>https://timestamp.is/posts/secondpost/</loc>
     <lastmod>2021-03-27T23:12:49.000Z</lastmod>
   </url>
   
@@ -23,7 +69,7 @@
     
   
   <url>
-    <loc>https://update-me.com/posts/secondpost/</loc>
+    <loc>https://timestamp.is/posts/thirdpost/</loc>
     <lastmod>2021-03-27T23:12:49.000Z</lastmod>
   </url>
   
@@ -36,20 +82,7 @@
     
   
   <url>
-    <loc>https://update-me.com/posts/thirdpost/</loc>
-    <lastmod>2021-03-27T23:12:49.000Z</lastmod>
-  </url>
-  
-  
-  
-  
-  
-  
-  
-    
-  
-  <url>
-    <loc>https://update-me.com/posts/fourthpost/</loc>
+    <loc>https://timestamp.is/posts/fourthpost/</loc>
     <lastmod>2021-03-27T23:12:49.000Z</lastmod>
   </url>
   
@@ -62,8 +95,8 @@
   
   
   <url>
-    <loc>https://update-me.com/about/</loc>
-    <lastmod>2021-03-27T23:14:32.199Z</lastmod>
+    <loc>https://timestamp.is/about/</loc>
+    <lastmod>2021-03-29T15:37:22.445Z</lastmod>
   </url>
   
   
@@ -75,8 +108,8 @@
   
   
   <url>
-    <loc>https://update-me.com/posts/</loc>
-    <lastmod>2021-03-27T23:14:32.199Z</lastmod>
+    <loc>https://timestamp.is/posts/</loc>
+    <lastmod>2021-03-29T15:37:22.445Z</lastmod>
   </url>
   
   
@@ -88,8 +121,8 @@
   
   
   <url>
-    <loc>https://update-me.com/page-list/</loc>
-    <lastmod>2021-03-27T23:14:32.288Z</lastmod>
+    <loc>https://timestamp.is/page-list/</loc>
+    <lastmod>2021-03-29T15:37:22.523Z</lastmod>
   </url>
   
   
@@ -101,8 +134,8 @@
   
   
   <url>
-    <loc>https://update-me.com/tags/</loc>
-    <lastmod>2021-03-27T23:14:32.291Z</lastmod>
+    <loc>https://timestamp.is/tags/</loc>
+    <lastmod>2021-03-29T15:37:22.526Z</lastmod>
   </url>
   
   
@@ -114,8 +147,8 @@
   
   
   <url>
-    <loc>https://update-me.com/tags/another-tag/</loc>
-    <lastmod>2021-03-27T23:14:32.291Z</lastmod>
+    <loc>https://timestamp.is/tags/another-tag/</loc>
+    <lastmod>2021-03-29T15:37:22.526Z</lastmod>
   </url>
   
   
@@ -127,8 +160,8 @@
   
   
   <url>
-    <loc>https://update-me.com/tags/second-tag/</loc>
-    <lastmod>2021-03-27T23:14:32.291Z</lastmod>
+    <loc>https://timestamp.is/tags/second-tag/</loc>
+    <lastmod>2021-03-29T15:37:22.526Z</lastmod>
   </url>
   
   
@@ -140,8 +173,8 @@
   
   
   <url>
-    <loc>https://update-me.com/tags/number-2/</loc>
-    <lastmod>2021-03-27T23:14:32.291Z</lastmod>
+    <loc>https://timestamp.is/tags/number-2/</loc>
+    <lastmod>2021-03-29T15:37:22.526Z</lastmod>
   </url>
   
   
@@ -153,7 +186,20 @@
   
   
   <url>
-    <loc>https://update-me.com/</loc>
-    <lastmod>2021-03-28T15:26:14.877Z</lastmod>
+    <loc>https://timestamp.is/tiles/</loc>
+    <lastmod>2021-05-07T22:40:04.158Z</lastmod>
+  </url>
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <url>
+    <loc>https://timestamp.is/</loc>
+    <lastmod>2021-05-08T15:48:51.812Z</lastmod>
   </url>
 </urlset>

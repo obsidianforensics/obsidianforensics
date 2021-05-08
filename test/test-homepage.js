@@ -37,11 +37,5 @@ describe("check build output for homepage", () => {
 
       expect(navs.length).to.be.greaterThan(1);
     });
-
-    it("should have a list of posts", () => {
-      const posts = Array.from(doc.querySelectorAll("#posts ul li a"));
-
-      expect(posts.length).to.be.greaterThan(0);
-    });
   });
 });
