@@ -10,6 +10,14 @@ function calcWebkit(inputMilliseconds) {
   return ((inputMilliseconds*1000)+11644473600*1000000).toString();
 }
 
+function calcFileTime(inputMilliseconds) {
+  return ((inputMilliseconds*10000)+11644473600*10000000).toString();
+}
+
+function calcDateTimeTicks(inputMilliseconds) {
+  return ((inputMilliseconds*10000)+621355968000000000).toString();
+}
+
 function calcEpochHexSeconds(inputMilliseconds) {
   return Math.trunc(inputMilliseconds / 1000).toString(16).toUpperCase();
 }
@@ -91,9 +99,9 @@ function setTableTimestampsFractional() {
     writeTimestampCells(calcEpochHexSeconds(nowMS),'epoch-hex', 'now', 10);
     writeTimestampCells(calcEpochHexSeconds(futureMs),'epoch-hex', 'future', 10);
 
-    writeTimestampCells(calcWebkit(oldMs),'webkit', 'past', 12);
-    writeTimestampCells(calcWebkit(nowMS),'webkit', 'now', 12);
-    writeTimestampCells(calcWebkit(futureMs),'webkit', 'future', 12);
+    writeTimestampCells(calcWebkit(oldMs),'webkit', 'past', 11);
+    writeTimestampCells(calcWebkit(nowMS),'webkit', 'now', 11);
+    writeTimestampCells(calcWebkit(futureMs),'webkit', 'future', 13);
 
     writeTimestampCells(calcEpochSeconds(oldMs),'epoch-second', 'past', 10);
     writeTimestampCells(calcEpochSeconds(nowMS),'epoch-second', 'now', 10);
@@ -102,6 +110,14 @@ function setTableTimestampsFractional() {
     writeTimestampCells(calcEpochMilliseconds(oldMs),'epoch-millisecond', 'past', 10);
     writeTimestampCells(calcEpochMilliseconds(nowMS),'epoch-millisecond', 'now', 10);
     writeTimestampCells(calcEpochMilliseconds(futureMs),'epoch-millisecond', 'future', 10);
+
+    writeTimestampCells(calcFileTime(oldMs),'filetime', 'past', 11);
+    writeTimestampCells(calcFileTime(nowMS),'filetime', 'now', 11);
+    writeTimestampCells(calcFileTime(futureMs),'filetime', 'future', 11);
+
+    writeTimestampCells(calcDateTimeTicks(oldMs),'datetime-ticks', 'past', 11);
+    writeTimestampCells(calcDateTimeTicks(nowMS),'datetime-ticks', 'now', 11);
+    writeTimestampCells(calcDateTimeTicks(futureMs),'datetime-ticks', 'future', 11);
 
 }
 

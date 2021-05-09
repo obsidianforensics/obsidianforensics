@@ -7,9 +7,24 @@
   
   
   
+    
+  
+  <url>
+    <loc>https://timestamp.is/datetime-ticks/</loc>
+    <lastmod>2021-05-09T23:15:41.000Z</lastmod>
+  </url>
+  
+  
+  
+  
+  
+  
+  
+    
+  
   <url>
     <loc>https://timestamp.is/posts/epoch-hex/</loc>
-    <lastmod>2020-07-12T00:00:00.000Z</lastmod>
+    <lastmod>2021-05-09T23:15:41.000Z</lastmod>
   </url>
   
   
@@ -22,7 +37,7 @@
   
   <url>
     <loc>https://timestamp.is/posts/epoch-millisecond/</loc>
-    <lastmod>2021-03-29T15:25:39.000Z</lastmod>
+    <lastmod>2021-05-09T23:15:41.000Z</lastmod>
   </url>
   
   
@@ -30,10 +45,12 @@
   
   
   
+  
+    
   
   <url>
     <loc>https://timestamp.is/posts/epoch-second/</loc>
-    <lastmod>2020-07-12T00:00:00.000Z</lastmod>
+    <lastmod>2021-05-09T23:15:41.000Z</lastmod>
   </url>
   
   
@@ -43,8 +60,21 @@
   
   
   <url>
-    <loc>https://timestamp.is/posts/webkit/</loc>
+    <loc>https://timestamp.is/posts/filetime/</loc>
     <lastmod>2020-07-12T00:00:00.000Z</lastmod>
+  </url>
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  <url>
+    <loc>https://timestamp.is/posts/webkit/</loc>
+    <lastmod>2021-05-09T23:15:41.000Z</lastmod>
   </url>
   
   
@@ -147,7 +177,7 @@
   
   
   <url>
-    <loc>https://timestamp.is/tags/another-tag/</loc>
+    <loc>https://timestamp.is/tags/timestamps/</loc>
     <lastmod>2021-03-29T15:37:22.526Z</lastmod>
   </url>
   
@@ -185,9 +215,11 @@
     
   
   
+    
+  
   <url>
     <loc>https://timestamp.is/tiles/</loc>
-    <lastmod>2021-05-07T22:40:04.158Z</lastmod>
+    <lastmod>2021-05-08T15:52:09.000Z</lastmod>
   </url>
   
   
@@ -198,8 +230,10 @@
     
   
   
+    
+  
   <url>
     <loc>https://timestamp.is/</loc>
-    <lastmod>2021-05-08T15:48:51.812Z</lastmod>
+    <lastmod>2021-05-08T15:52:09.000Z</lastmod>
   </url>
 </urlset>

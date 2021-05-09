@@ -51,6 +51,7 @@
 :root {
   --primary: #f9c412;
   --primary-dark: #e7bf60;
+  --light-gray: #dddddd;
 }
 
 .test-dead-code-elimination-sentinel {
@@ -487,7 +488,7 @@ body {
   margin: 0;
 }
 h1 {
-  font-size: 2em;
+  font-size: 1.5em;
   margin: 0.67em 0;
 }
 hr {
