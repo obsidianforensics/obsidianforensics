@@ -10,7 +10,7 @@
   <div class="grid-item-header ts-now header" id="iso now"></div>
   <div class="grid-item-header ts-future header">2030-01-01T00:00:00.000Z</div>
 
-  {% for post in postslist %}
+  {% for post in collections.timestamps %}
     {% if post.data.timestamp_id %}
       <div class="grid-item ts-name" id="{{ post.data.timestamp_id }} name">{{ post.data.title }}</div>
       <div class="grid-item ts-past" id="{{ post.data.timestamp_id }} past seconds"></div>
