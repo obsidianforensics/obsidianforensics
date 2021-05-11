@@ -15,7 +15,11 @@ function calcTimestamp(timestamp_type, inputMS) {
       return_ts = Math.trunc(inputMS / 1000).toString(16).toUpperCase();
       break;
     case "epoch-milliseconds":
-      return_ts = inputMS.toString();
+      if (typeof inputMS === 'number') {
+        return_ts = inputMS;
+      } else {
+        return_ts = inputMS.getTime();
+      }
       break;
     case "filetime":
       return_ts = ((inputMS*10000)+11644473600*10000000).toString();
