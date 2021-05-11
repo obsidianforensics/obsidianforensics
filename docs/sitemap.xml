@@ -20,47 +20,8 @@
   
   
   
-    
-  
   <url>
-    <loc>https://timestamp.is/posts/epoch-hex/</loc>
-    <lastmod>2021-05-09T23:15:41.000Z</lastmod>
-  </url>
-  
-  
-  
-  
-  
-  
-  
-    
-  
-  <url>
-    <loc>https://timestamp.is/posts/epoch-millisecond/</loc>
-    <lastmod>2021-05-09T23:15:41.000Z</lastmod>
-  </url>
-  
-  
-  
-  
-  
-  
-  
-    
-  
-  <url>
-    <loc>https://timestamp.is/posts/epoch-second/</loc>
-    <lastmod>2021-05-09T23:15:41.000Z</lastmod>
-  </url>
-  
-  
-  
-  
-  
-  
-  
-  <url>
-    <loc>https://timestamp.is/posts/filetime/</loc>
+    <loc>https://timestamp.is/epoch-hex-seconds/</loc>
     <lastmod>2020-07-12T00:00:00.000Z</lastmod>
   </url>
   
@@ -70,11 +31,42 @@
   
   
   
-    
+  <url>
+    <loc>https://timestamp.is/epoch-milliseconds/</loc>
+    <lastmod>2020-07-12T00:00:00.000Z</lastmod>
+  </url>
+  
+  
+  
+  
+  
+  
   
   <url>
-    <loc>https://timestamp.is/posts/webkit/</loc>
-    <lastmod>2021-05-09T23:15:41.000Z</lastmod>
+    <loc>https://timestamp.is/epoch-seconds/</loc>
+    <lastmod>2020-07-12T00:00:00.000Z</lastmod>
+  </url>
+  
+  
+  
+  
+  
+  
+  
+  <url>
+    <loc>https://timestamp.is/filetime/</loc>
+    <lastmod>2020-07-12T00:00:00.000Z</lastmod>
+  </url>
+  
+  
+  
+  
+  
+  
+  
+  <url>
+    <loc>https://timestamp.is/webkit/</loc>
+    <lastmod>2020-07-12T00:00:00.000Z</lastmod>
   </url>
   
   
@@ -190,7 +182,7 @@
   
   
   <url>
-    <loc>https://timestamp.is/tags/number-2/</loc>
+    <loc>https://timestamp.is/tags/second-tag/</loc>
     <lastmod>2021-03-29T15:37:22.526Z</lastmod>
   </url>
   
@@ -203,7 +195,7 @@
   
   
   <url>
-    <loc>https://timestamp.is/tags/second-tag/</loc>
+    <loc>https://timestamp.is/tags/number-2/</loc>
     <lastmod>2021-03-29T15:37:22.526Z</lastmod>
   </url>
   

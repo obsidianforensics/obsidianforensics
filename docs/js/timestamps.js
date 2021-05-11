@@ -95,21 +95,21 @@ function setTableTimestampsFractional() {
 
     document.getElementById('iso now').innerHTML = now.toISOString();
 
-    writeTimestampCells(calcEpochHexSeconds(oldMs),'epoch-hex', 'past', 10);
-    writeTimestampCells(calcEpochHexSeconds(nowMS),'epoch-hex', 'now', 10);
-    writeTimestampCells(calcEpochHexSeconds(futureMs),'epoch-hex', 'future', 10);
+    writeTimestampCells(calcEpochHexSeconds(oldMs),'epoch-hex-seconds', 'past', 10);
+    writeTimestampCells(calcEpochHexSeconds(nowMS),'epoch-hex-seconds', 'now', 10);
+    writeTimestampCells(calcEpochHexSeconds(futureMs),'epoch-hex-seconds', 'future', 10);
 
     writeTimestampCells(calcWebkit(oldMs),'webkit', 'past', 11);
     writeTimestampCells(calcWebkit(nowMS),'webkit', 'now', 11);
     writeTimestampCells(calcWebkit(futureMs),'webkit', 'future', 13);
 
-    writeTimestampCells(calcEpochSeconds(oldMs),'epoch-second', 'past', 10);
-    writeTimestampCells(calcEpochSeconds(nowMS),'epoch-second', 'now', 10);
-    writeTimestampCells(calcEpochSeconds(futureMs),'epoch-second', 'future', 10);
+    writeTimestampCells(calcEpochSeconds(oldMs),'epoch-seconds', 'past', 10);
+    writeTimestampCells(calcEpochSeconds(nowMS),'epoch-seconds', 'now', 10);
+    writeTimestampCells(calcEpochSeconds(futureMs),'epoch-seconds', 'future', 10);
 
-    writeTimestampCells(calcEpochMilliseconds(oldMs),'epoch-millisecond', 'past', 10);
-    writeTimestampCells(calcEpochMilliseconds(nowMS),'epoch-millisecond', 'now', 10);
-    writeTimestampCells(calcEpochMilliseconds(futureMs),'epoch-millisecond', 'future', 10);
+    writeTimestampCells(calcEpochMilliseconds(oldMs),'epoch-milliseconds', 'past', 10);
+    writeTimestampCells(calcEpochMilliseconds(nowMS),'epoch-milliseconds', 'now', 10);
+    writeTimestampCells(calcEpochMilliseconds(futureMs),'epoch-milliseconds', 'future', 10);
 
     writeTimestampCells(calcFileTime(oldMs),'filetime', 'past', 11);
     writeTimestampCells(calcFileTime(nowMS),'filetime', 'now', 11);
@@ -121,6 +121,12 @@ function setTableTimestampsFractional() {
 
 }
 
+
+function updateTimestampDetailsTable(timestamp_id, nowMS) {
+      document.getElementById(`${timestamp_id} past`).innerHTML = calcWebkit(nowMS-86400000);
+      document.getElementById(`${timestamp_id} now`).innerHTML = calcWebkit(nowMS);
+      document.getElementById(`${timestamp_id} future`).innerHTML = calcWebkit(nowMS+86400000);
+}
 
 //document.addEventListener("DOMContentLoaded", headerTimestamp());
 //document.addEventListener("DOMContentLoaded", updateTimestamps());

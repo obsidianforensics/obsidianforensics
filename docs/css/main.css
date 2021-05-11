@@ -47,6 +47,43 @@
   text-align: center;
   font-size: larger;
 }
+
+.grid-container-timestamp-detail-table {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: 90%;
+  margin: auto;
+
+}
+
+.grid-item-timestamp-detail-table {
+  justify-self: center;
+  color: var(--primary);
+}
+
+.grid-item-timestamp-detail-table.timestamp {
+  justify-self: left;
+  color: var(--primary);
+}
+
+.header-detail-name {
+  color: var(--primary);
+  margin-top: 0.08em;
+  margin-bottom: 0.1em;
+  font-size: max(6vw, 30px);
+}
+
+.header-detail-live {
+  color: var(--primary);
+  margin-top: 0.2em;
+  margin-bottom: 0.1em;
+  font-size: max(5vw, 30px);
+  font-style: normal;
+}
+
+.header-subtext {
+  font-size: 1.2em;
+}
 /* Color customization */
 :root {
   --primary: #f9c412;
@@ -1091,7 +1128,7 @@ header label {
 }
 header {
   padding: 4.5em 1.5em 3em;
-  width: 37.5em;
+  width: 47.5em;
   margin: 0 auto;
   text-align: center;
   max-width: 100%;
