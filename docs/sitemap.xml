@@ -21,6 +21,17 @@
   
   
   <url>
+    <loc>https://timestamp.is/epoch-hex-seconds-le/</loc>
+    <lastmod>2020-07-12T00:00:00.000Z</lastmod>
+  </url>
+  
+  
+  
+  
+  
+  
+  
+  <url>
     <loc>https://timestamp.is/epoch-hex-seconds/</loc>
     <lastmod>2020-07-12T00:00:00.000Z</lastmod>
   </url>
@@ -54,7 +65,62 @@
   
   
   <url>
+    <loc>https://timestamp.is/filetime-hex-le/</loc>
+    <lastmod>2020-07-12T00:00:00.000Z</lastmod>
+  </url>
+  
+  
+  
+  
+  
+  
+  
+  <url>
+    <loc>https://timestamp.is/filetime-hex/</loc>
+    <lastmod>2020-07-12T00:00:00.000Z</lastmod>
+  </url>
+  
+  
+  
+  
+  
+  
+  
+  <url>
     <loc>https://timestamp.is/filetime/</loc>
+    <lastmod>2020-07-12T00:00:00.000Z</lastmod>
+  </url>
+  
+  
+  
+  
+  
+  
+  
+  <url>
+    <loc>https://timestamp.is/fractional-seconds-comparison/</loc>
+    <lastmod>2020-07-12T00:00:00.000Z</lastmod>
+  </url>
+  
+  
+  
+  
+  
+  
+  
+  <url>
+    <loc>https://timestamp.is/mac-absolute-time/</loc>
+    <lastmod>2020-07-12T00:00:00.000Z</lastmod>
+  </url>
+  
+  
+  
+  
+  
+  
+  
+  <url>
+    <loc>https://timestamp.is/mac-hfs-plus/</loc>
     <lastmod>2020-07-12T00:00:00.000Z</lastmod>
   </url>
   
@@ -170,6 +236,45 @@
   
   <url>
     <loc>https://timestamp.is/tags/timestamps/</loc>
+    <lastmod>2021-03-29T15:37:22.526Z</lastmod>
+  </url>
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <url>
+    <loc>https://timestamp.is/tags/fractionalseconds/</loc>
+    <lastmod>2021-03-29T15:37:22.526Z</lastmod>
+  </url>
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <url>
+    <loc>https://timestamp.is/tags/little-endian/</loc>
+    <lastmod>2021-03-29T15:37:22.526Z</lastmod>
+  </url>
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <url>
+    <loc>https://timestamp.is/tags/comparison/</loc>
     <lastmod>2021-03-29T15:37:22.526Z</lastmod>
   </url>
   
